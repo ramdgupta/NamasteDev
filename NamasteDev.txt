@@ -1,0 +1,67 @@
+
+What is eamet?
+What is CDN ?
+Why there are two file react cdn ?
+What is crossorigin? 
+What is different between async and diff?
+What is React?
+What is createElement?
+What is ReactDom?
+What is createRoot?
+What is root?
+What is render? modify your dom and overright of root elements
+
+Create git hub
+creaete repo at git 
+create Html file
+add cdn file of react
+create a root element 
+create a single element
+create a multiple element
+Split the file
+
+Better comment
+
+
+
+
+Namste React 24/12/2022
+add cdn react file in your index.html
+at browser console.log 
+type 
+React
+React.createElment
+ReactDOM
+
+react@18
+	This file  is version of react
+	This is core file of react
+react-dom@18 
+	This file this web version of react 
+	This file accesses dom of page 
+	
+
+In React crete element : React.createElement
+React.createElement("h1", {}, "Namaste Everyone!"};
+
+In React Create Root Element:ReactDom.createRoot
+	ReactDOM it's Document object model
+	CreateRoot tail what you pass in this become root
+	ReactDom.createRoot(document.getElementById("root"));
+	React is override whatever inside root
+	React
+	{}, there is paramaeter go like id, class, index etc
+Can we have multiple root?
+	In generally all aplication only have single root and render method
+	everything we will build we build inside it.
+
+Passing a React element in to dom : root.render
+root.render(heading);
+
+What will we see use ?
+console.log(heading);
+	React element is an object 
+	React is not JSX
+	It's plane Javascript object
+
+What is CDN ?
