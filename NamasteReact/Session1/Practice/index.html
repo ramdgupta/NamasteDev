@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namaste React Dev Session 1</title>
+</head>
+<body>
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <!-- <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script> -->
+    <div id="root">
+    </div>
+    <script>
+        // creating react element with React.createElement
+        const heading= React.createElement("h1", {}, "Namaste React Dev Session One");
+        const subHeading = React.createElement("h4", {}, "let start industry ready program with Akshay Saini");
+        const paragraph = React.createElement("p", {}, 
+        "Here you know about react what actually is it.You know differnet between library and frame work. Know about React js CDN link for development and production ready. You know about how to create and render a element in react.");
+        // Create Root element with ReactDOM.createRoot
+        const root = ReactDOM.createRoot(document.getElementById("root"));
+        const wrapper = React.createElement("div", {className:"wrapper"}, [heading, subHeading, paragraph]);
+        // render root element with React.render
+        root.render(wrapper);
+    </script>
+
+</body>
+</html>
