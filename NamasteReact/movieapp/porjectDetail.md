@@ -41,6 +41,6 @@ syler.sass-indented
         store.js
         image
 
-# dependencies follow package.json file
-# review here working : https://movieapp-etraveli.netlify.app/
+# For dependencies installation follow package.json file
+# For working review follow : https://movieapp-etraveli.netlify.app/
 # Have install tailwind but not usese due to I write simple css
