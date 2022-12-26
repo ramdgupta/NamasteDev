@@ -2,30 +2,38 @@
 csstools.postcss
 xabikos.ReactSnippets
 
-
-#Folder 
+# Folder 
 Src
+    common
+    apis
+        movieapi.js
+    color.scss
+    convertToRoman.js
     component
+        Filter
+            Filter.js
+            Filter.scss
         Header
             Header.js
             Header.css
-        Footer
-            Footer.js
-            Footer.css
         Home
             Home.js
             Home.scss
+        MovieCard
+            MovieCard.js
+            MovieCard.scss
         MovieListing
             MovieListing.js
             MoviewListing.scss
-        MovieDetail
-            MovieDetail.js
-            MovieDetail.scss
-        MovieCard
-            MovieCard.js
-        PageNotFound
-            
+        Navigation
+            Navigation.js
+            Navigation.scss
+        Search
+            Search.js
 
-    feature
-        color.scss
-    image
+    # redux-toolkit
+        feature
+            movies
+                movieSlice.js
+        store.js
+        image

@@ -1,17 +1,15 @@
-@import "../../common/colors.scss";
-
-.movie-list,
-.show-list {
-  margin: 20px 0px;
-  h2 {
-    color: $font-secondary;
-    margin-bottom: 10px;
-    font-weight: 400;
-  }
-}
-
+@import "../../common/color.scss";
 .movie-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  grid-gap: 15px;
+  margin-top: 20px;
+  .movie-error{
+    height: calc(100vh - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h1{
+      font-size: 30px;
+      color: $font-primary;
+    }
+    
+  }
 }

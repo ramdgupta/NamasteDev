@@ -8,7 +8,7 @@ const Filter = () => {
     const data = useSelector(getAllMovies);
     const clickHandler = (e, term) => {
         e.preventDefault();
-        console.log('term', term, term())
+       // console.log('term', term, term())
         dispatch(fetchAsyncMovies(term()))
     }
     const byEpisode = ()=>{

@@ -2,7 +2,7 @@ import { useState } from 'react';
 import {  useSelector } from 'react-redux';
 import { getAllMovies } from '../../feature/movies/movieSlice';
 import MovieCard from '../MovieCard/MovieCard';
-
+import "./MovieListing.scss";
 const MovieListing = () => {
     const data =  useSelector(getAllMovies);
     const isEmpty = Object.keys(data.movies).length;
@@ -20,8 +20,8 @@ const MovieListing = () => {
         <MovieCard key={movie.episode_id} item={movie}  onToggle={()=>handelToggle(movie.episode_id)} active={clicked===movie.episode_id}/>
       ))
     ) : (
-      <div className="movies-error">
-        <h3>Loading...</h3>
+      <div className="movie-error">
+        <h1>Loading...</h1>
       </div>
     ); 
    return (

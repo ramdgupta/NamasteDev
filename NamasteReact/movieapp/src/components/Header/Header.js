@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Filter from "../Filter/FilterMenu";
+import Filter from "../Filter/Filter";
 import Navigation from "../Navigation/Navigation";
 import Search from "../Search/Search";
 import "./Header.scss";
