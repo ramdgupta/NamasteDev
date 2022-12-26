@@ -1,6 +1,9 @@
 # install for local run visual studia extention
 csstools.postcss
 xabikos.ReactSnippets
+carbonid1.emmet-jss
+esbenp.prettier-vscode
+syler.sass-indented
 
 # Folder 
 Src
@@ -37,3 +40,7 @@ Src
                 movieSlice.js
         store.js
         image
+
+# dependencies follow package.json file
+
+# review here working : https://movieapp-etraveli.netlify.app/
